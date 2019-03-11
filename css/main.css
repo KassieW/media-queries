@@ -58,9 +58,13 @@ footer {
 /*---------- TABLET ----------*/
 /* Change the background colors below */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   header {
     background-color: cyan;
+  }
+
+  .col-3 {
+    width: 50%;
   }
 
   #column-1 {
@@ -73,6 +77,7 @@ footer {
 
   #column-3 {
     background-color: greenyellow;
+    width: 100%;
   }
 
   footer {
@@ -83,9 +88,13 @@ footer {
 
 
 /*---------- Desktops ----------*/
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   header {
     background-color: gold;
+  }
+
+  .col-3 {
+    width: 33.33%;
   }
 
   #column-1 {
